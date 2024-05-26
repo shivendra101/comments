@@ -1,0 +1,32 @@
+.comment-thread {
+    margin-left: 3rem;
+    .comment-container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        .comment-text {
+            font-size: 20px;
+            font-weight: 500;
+            color: #5d5d5d;
+        }
+        .comment-reply {
+            color: #537ac5;
+            font-size: 14px;
+            font-weight: 500;
+            cursor: pointer;
+        }
+        
+        .reply-container {
+            display: flex;
+            gap: 5px;
+            align-items: center;
+            margin-left: 3rem;
+            input {
+                padding: 5px;
+                border: 2px solid #5d5d5d;
+                border-radius: 4px;
+            }
+        }
+    }
+   
+}
